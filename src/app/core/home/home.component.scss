@@ -1,0 +1,85 @@
+:root {
+    --main-orange-color: #DC780B;
+    --main-dark-color: #150C01;
+    --roboto-font: 'Roboto', sans-serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --dark-grey: #C4C4C4;
+    --mobile-app-bg: #FBF1E7;
+}
+/* Header */
+
+header h1 {
+    font-size: 52px;
+    line-height: 70px;
+}
+
+header .detail-btn {
+    border: 1px solid #DC780B !important;
+}
+
+header .detail-btn:hover {
+    background-color: #DC780B;
+    color: #fff !important;
+}
+
+header .order-btn:hover + .detail-btn {
+    background-color: #DC780B !important;
+    color: #fff !important;
+}
+header .detail-btn:hover  .order-btn {
+    background-color: #fff !important;
+    color: #DC780B !important;
+}
+
+header .order-btn:hover {
+    background-color: #fff !important; 
+    color: #DC780B  !important;
+    border: 1px solid #DC780B !important;
+}
+
+
+input::placeholder {
+    color: #a8a8a7;
+  }
+  textarea::placeholder {
+    color: #a8a8a7;
+  }
+  
+  .form-control-x {
+    height: 50px !important;
+    border: 1px solid #dbdbdb;
+    background-color: #f8f8f8;
+  
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
+  .form-control {
+    border: 1px solid #dbdbdb;
+    background-color: #f8f8f8;
+  
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
+
+  
+#aboutUs .container-fluid {
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+#aboutUs h3 {
+    line-height: 40px;
+}
+
+.category {
+    color: #DC780B !important;
+    letter-spacing: 0.2em !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+}
